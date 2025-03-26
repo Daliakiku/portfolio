@@ -1,0 +1,110 @@
+header{
+    font-family: "nunito", sans-serif;
+    font-size: 20px;
+    color: #15161f;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    background-color: rgb(233, 230, 227);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+body {
+    background-color: rgb(233, 230, 227);
+}
+
+p{
+    color: #15161f;
+    font-family: "nunito", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    top: 50px;
+    margin-top: 100px;
+    font-style: light;
+}
+
+h1{
+
+    font-family: "Chonburi", sans-serif;
+    font-size: 300%;
+    color: #15161f;
+    text-align: left;
+    position: relative;
+    top: 200px;
+    left: 30px;
+}
+
+footer{
+    position:relative;
+    bottom: -600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#background{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#name{
+    font-family: "Chonburi", sans-serif;
+    font-size: 1700%;
+    color:rgb(233, 230, 227);
+    transform: scaleY(200%);
+
+    position: relative;
+    top: 230px;
+    left: 30px;
+}
+
+#home{
+    text-align: left;
+}
+
+a:link{
+    color: #15161f;
+    text-decoration: none;
+    font-style: bold;
+}
+
+a:visited{
+    color: #15161f;
+    text-decoration: none;
+    font-style: bold;
+}
+
+.fa-instagram{
+    position: relative;
+    left: 40px;
+}
+
+.fa-spotify{
+    position: relative;
+    right: 40px;
+} 
+
+.socials{
+    transform: scale(3);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+#me{
+    float:right;
+    width: 40%;
+    margin-right: 70px;
+    margin-left: 30px;
+    clear: both;
+
+}

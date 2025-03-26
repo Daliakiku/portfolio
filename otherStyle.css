@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(233, 230, 227);
+}
+
+h1{
+    font-family: "Chonburi", sans-serif;
+    font-size: 500%;
+    color: #15161f;
+    text-align: center;
+    position: relative;
+}
+
+img{
+
+    height: 400px;
+    margin: auto;
+    padding: auto;
+
+}
+
+video{
+
+    margin: auto;
+}
+
+header{
+    font-family: "nunito", sans-serif;
+    font-size: 20px;
+    color: #15161f;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    background-color: rgb(233, 230, 227);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#caption{
+    font-family: "nunito", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    position: relative;
+    right: 400px;
+}
+
+#home{
+    text-align: left;
+}
+
+a:link{
+    color: #15161f;
+    text-decoration: none;
+    font-style: bold;
+}
+
+a:visited{
+    color: #15161f;
+    text-decoration: none;
+    font-style: bold;
+}
+
+.poem{
+    /* float: left; */
+    /* float: right; */
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #15161f;
+    display: flexbox;
+}
